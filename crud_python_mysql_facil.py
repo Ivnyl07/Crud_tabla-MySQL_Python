@@ -36,7 +36,7 @@ def actualizar_info(dato_1, dato_2, dato_3, dato_4):
         conexion.close()
         
 
-#Deleate (Borrar)
+#Delete (Borrar)
 def eliminar_info(dato):
     conexion = obtener_conexion()
     with conexion.cursor() as cursor:
